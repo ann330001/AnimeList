@@ -24,6 +24,7 @@
 		504B11AA255FEC1100FF6F07 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504B11A9255FEC1100FF6F07 /* CoreDataManager.swift */; };
 		50B4A2472560CFA300B8F50C /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B4A2462560CFA300B8F50C /* FavoriteTableViewCell.swift */; };
 		50B4A2492560D07C00B8F50C /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B4A2482560D07C00B8F50C /* FavoriteVC.swift */; };
+		50B4A24B25614A0B00B8F50C /* APIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B4A24A25614A0B00B8F50C /* APIManagerTests.swift */; };
 		6A568C1508B28BF9B58CA53A /* Pods_AnimeListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E1D6192E2C3B42986C9F37 /* Pods_AnimeListUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,7 @@
 		504B11A9255FEC1100FF6F07 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		50B4A2462560CFA300B8F50C /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
 		50B4A2482560D07C00B8F50C /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		50B4A24A25614A0B00B8F50C /* APIManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerTests.swift; sourceTree = "<group>"; };
 		657755CD079A8CAA689D8EA9 /* Pods-AnimeListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeListTests.release.xcconfig"; path = "Target Support Files/Pods-AnimeListTests/Pods-AnimeListTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D48E0DFFEAF9242FE6C4787 /* Pods-AnimeListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimeListTests.debug.xcconfig"; path = "Target Support Files/Pods-AnimeListTests/Pods-AnimeListTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AFD453FC1C24AF72659E480B /* Pods_AnimeList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimeList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				504B1185255F6F0C00FF6F07 /* AnimeListTests.swift */,
+				50B4A24A25614A0B00B8F50C /* APIManagerTests.swift */,
 				504B1187255F6F0C00FF6F07 /* Info.plist */,
 			);
 			path = AnimeListTests;
@@ -456,6 +459,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B4A24B25614A0B00B8F50C /* APIManagerTests.swift in Sources */,
 				504B1186255F6F0C00FF6F07 /* AnimeListTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -623,7 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 4NG5N7JDUF;
 				INFOPLIST_FILE = AnimeList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -643,7 +647,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 4NG5N7JDUF;
 				INFOPLIST_FILE = AnimeList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
